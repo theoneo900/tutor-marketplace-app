@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "Tutor Marketplace App",
+    "slug": "tutor-marketplace-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.theoneo900org.tutormarketplaceapp"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.theoneo900org.tutormarketplaceapp"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "bbd10290-4a2f-4878-aea7-1f8313e1a5af"
+      }
+    },
+    "owner": "theoneo900-org",
+    "updates": {
+      "url": "https://u.expo.dev/bbd10290-4a2f-4878-aea7-1f8313e1a5af"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
